@@ -44,13 +44,13 @@ namespace PollyTestClient
 
             // These async demos use .Wait() (rather than await) with the async calls, only for the purposes of allowing the demos still to remain the primary execution thread and own the Console output.
 
-            Samples.AsyncDemo00_NoPolicy.ExecuteAsync(cancellationToken).Wait();
+            Samples.AsyncDemo00_NoStrategy.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo01_RetryNTimes.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo02_WaitAndRetryNTimes.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo03_WaitAndRetryNTimes_WithEnoughRetries.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo04_WaitAndRetryForever.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo05_WaitAndRetryWithExponentialBackoff.ExecuteAsync(cancellationToken).Wait();
-            //Samples.AsyncDemo06_WaitAndRetryNestingCircuitBreaker.ExecuteAsync(cancellationToken).Wait(); 
+            //Samples.AsyncDemo06_WaitAndRetryNestingCircuitBreaker.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo07_WaitAndRetryNestingCircuitBreakerUsingPolicyWrap.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo08_Wrap_Fallback_WaitAndRetry_CircuitBreaker.ExecuteAsync(cancellationToken).Wait();
             //Samples.AsyncDemo09_Wrap_Fallback_Timeout_WaitAndRetry.ExecuteAsync(cancellationToken).Wait();
